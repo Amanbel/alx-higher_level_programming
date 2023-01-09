@@ -8,4 +8,3 @@ def multiple_returns(sentence):
         leng += len(i)
     t = (leng, sentence[0][0])
     return t
-    
