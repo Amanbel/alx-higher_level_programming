@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def weightiaverage(my_list=[]):
+def weight_average(my_list=[]):
     if not isinstance(my_list, list) or len(my_list) == 0:
         return (0)
 
