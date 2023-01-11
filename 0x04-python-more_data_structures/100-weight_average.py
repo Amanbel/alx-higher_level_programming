@@ -2,10 +2,11 @@
 def weight_average(my_list=[]):
     if not isinstance(my_list, list) or len(my_list) == 0:
         return (0)
+    top = list(map(lambda x: x[0] * x[1], my_list))
+    sum_top = sum(top)
 
-        avg = 0
-        size = 0
-        for tup in my_list:
-            avg += (tup[0] * tup[1])
-            size += tup[1]
-    return (avg / size)
+    den = list(map(lambda y: y[1], my_list))
+    sum_den = sum(den)
+
+    avg = sum_top/sum_den
+    return avg
