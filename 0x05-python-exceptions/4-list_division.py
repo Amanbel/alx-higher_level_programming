@@ -12,5 +12,5 @@ def list_division(my_list_1, my_list_2, list_length):
             elif (e = ZeroDivisionError):
                 print("division by 0")
             lis[i] = 0
-    finally:
-        return lis
+        finally:
+            return lis
