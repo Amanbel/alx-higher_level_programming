@@ -5,11 +5,11 @@ def list_division(my_list_1, my_list_2, list_length):
         try:
             lis[i] = my_list_1[i]/my_list_2[i]
         except Exception as e:
-            if (e = IndexError):
+            if (e == IndexError):
                 print("out of range")
-            elif (e = TypeError):
+            elif (e == TypeError):
                 print("wrong type")
-            elif (e = ZeroDivisionError):
+            elif (e == ZeroDivisionError):
                 print("division by 0")
             lis[i] = 0
         finally:
