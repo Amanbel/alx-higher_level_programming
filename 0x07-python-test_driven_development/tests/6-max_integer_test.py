@@ -20,3 +20,4 @@ class TetsMaxInteger(unittest.TestCase):
         """function to test the value input in the function"""
         self.assertRaises(TypeError, max_integer, [1, 'e', 4, 5])
         self.assertRaises(TypeError, max_integer, [1, "max", 3, 4])
+        self.assertRaises(TypeError, max_integer, [(1, 2), 3, 4]
