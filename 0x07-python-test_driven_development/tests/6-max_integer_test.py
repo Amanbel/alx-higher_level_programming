@@ -15,7 +15,7 @@ class TetsMaxInteger(unittest.TestCase):
         self.assertAlmostEqual(max_integer([1, 2, 3, 4]), 4)
         self.assertAlmostEqual(max_integer([]), None)
         self.assertAlmostEqual(max_integer([-1, -4, -77]), -1)
-        self.assetrAlmostEqual(max_integer([1, 1.1, 1.2, 1.3, 1.4]), 1.4)
+        self.assertAlmostEqual(max_integer([1, 1.1, 1.2, 1.3, 1.4]), 1.4)
 
     def test_value(self):
         """function to test the value input in the function"""
