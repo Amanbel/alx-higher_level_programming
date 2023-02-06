@@ -5,7 +5,7 @@
 
 >>> baseGeometry.integer_validator("idk", 0)
 Traceback (most recent call last):
-ValueError: idk must be greater than 0
+ValueError: <name> must be greater than 0
 
 >>> baseGeometry.integer_validator("width", 5, 4)
 Traceback (most recent call last):
@@ -13,15 +13,15 @@ TypeError: BaseGeometry.integer_validator() takes 3 positional arguments but 4 w
 
 >>> baseGeometry.integer_validator("Time", -32)
 Traceback (most recent call last):
-ValueError: Time must be greater than 0
+ValueError: <name> must be greater than 0
 
 >>> baseGeometry.integer_validator("Life", 4.2)
 Traceback (most recent call last):
-TypeError: Life must be an integer
+TypeError: <name> must be an integer
 
 >>> baseGeometry.integer_validator("cat", "Maiq")
 Traceback (most recent call last):
-TypeError: cat must be an integer
+TypeError: <name> must be an integer
 
 >>> baseGeometry.integer_validator("width")
 Traceback (most recent call last):
