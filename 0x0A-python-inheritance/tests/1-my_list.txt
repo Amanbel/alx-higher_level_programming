@@ -1,0 +1,15 @@
+A test for MyList subclass of list
+
+===================================
+
+>>> MyList = __import__('1-my_list').MyList
+>>> mylist = MyList()
+>>> mylist.append(77)
+>>> mylist.append(96)
+>>> mylist.append(33)
+>>> print(mylist)
+[77, 96, 33]
+>>> mylist.print_sorted()
+[33, 77, 96]
+>>> print(mylist)
+[77, 96, 33]
