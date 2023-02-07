@@ -2,11 +2,11 @@
 """module with a class of Rectangle"""
 
 
-class BaseGeometry:
+class BaseGeometry():
     """beta version of a class"""
     def area(self):
         """area calculator"""
-        raise Exception('area() is not implemented')
+        raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
         """validates input integer"""
