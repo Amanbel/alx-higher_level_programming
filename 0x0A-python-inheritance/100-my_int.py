@@ -4,9 +4,10 @@
 
 class MyInt(int):
     """subclass of int"""
-    def __init__(self, value):
-        self.__value = value
+    def __eq__(self, value):
+        """overrides equal"""
+        return int(self) != int(value)
 
-    def __new__(cls, *args, **kwargs):
-        """new class of int"""
-        return super(MyInt, cls).__new__(cls, value + 1)
+    def __ne__(self, value):
+        """overrides not equal"""
+        return int(self) == int(value)
