@@ -8,4 +8,4 @@ def add_attribute(inst, name_attr, value_attr):
             (hasattr(inst, "__slot__") and name_attr in inst.__slot__):
         setattr(inst, name_attr, value_attr)
     else:
-        setattr(inst, name_attr, value_attr)
+        raise TypeError("can't add new attribut")
