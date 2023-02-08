@@ -9,7 +9,7 @@ lst = []
 
 try:
     lst = list(load_from_json_file("add_item.json"))
-except:
+except Exception as e:
     len(lst) == 0
 
 for i in range(1, len(argv)):
