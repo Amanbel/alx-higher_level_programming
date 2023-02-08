@@ -11,7 +11,7 @@ class Student:
 
     def to_json(self, attrs=None):
         """return a specific dictionary"""
-        if attrs == None:
+        if attrs is None:
             return self.__dict__
         dicts = {}
         valu = self.__dict__
