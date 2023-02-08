@@ -21,7 +21,7 @@ class Student:
             else:
                 pass
         return dicts
-    
+
     def reload_from_json(self, json):
         """replaces attributes"""
         self.__dict__.update(json)
