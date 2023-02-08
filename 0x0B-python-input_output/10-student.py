@@ -11,10 +11,10 @@ class Student:
 
     def to_json(self, attrs=None):
         """return a specific dictionary"""
-        dicts = self.__dict__
+        dicts = {}
         for key in attrs:
-            if key in dicts:
-                pass
+            if key in self.__dict__:
+                dicts[key] = get(key)
             else:
-                dicts.pop(key)
+                pass
         return dicts
