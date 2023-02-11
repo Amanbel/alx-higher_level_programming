@@ -11,7 +11,7 @@ class Rectangle:
     @property
     def width(self):
         return self.__width
-    
+
     @property
     def height(self):
         return self.__height
@@ -40,11 +40,12 @@ class Rectangle:
     def perimeter(self):
         return (self.__height * 2) + (self.__width * 2)
 
-    def display_rec(self):
+    def __str__(self):
+        if self.__heigth == 0 or self.__width == 0:
+            return ''
+        string = ''
         for i in range(self.__height):
             for j in range(self.__width):
-                print('#', end="")
-            print()
-
-    def __str__(self):
-        return display_rec()
+                string += '#'
+            string += '\n'
+        return string
