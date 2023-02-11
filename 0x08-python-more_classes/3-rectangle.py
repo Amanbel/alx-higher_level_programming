@@ -43,12 +43,12 @@ class Rectangle:
         return (self.__height * 2) + (self.__width * 2)
 
     def __str__(self):
-        if self.__heigth == 0 or self.__width == 0:
+        if self.heigth == 0 or self.width == 0:
             return ''
         string = ''
         for i in range(self.height):
             for j in range(self.width):
                 string += '#'
-            if i != self.height:
+            if i != self.height - 1:
                 string += '\n'
         return string
