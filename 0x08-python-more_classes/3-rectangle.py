@@ -47,4 +47,4 @@ class Rectangle:
             print()
 
     def __str__(self):
-        return self.display_rec()
+        return display_rec()
