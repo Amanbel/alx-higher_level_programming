@@ -13,11 +13,6 @@ class Reactangle:
         """getter of width attribute"""
         return self.__width
 
-    @property
-    def height(self):
-        """getter of height attribute"""
-        return self.__height
-
     @width.setter
     def width(self, width):
         """setter of width attribute"""
@@ -27,6 +22,11 @@ class Reactangle:
             raise ValueError('width must be >= 0')
         else:
             self.__width = width
+
+    @property
+    def height(self):
+        """getter of height attribute"""
+        return self.__height
 
     @height.setter
     def height(self, height):
