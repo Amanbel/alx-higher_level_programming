@@ -2,7 +2,7 @@
 """module for a class"""
 
 
-class Reactangle:
+class Rectangle:
     """class with getters and setters"""
     def __init__(self, width=0, height=0):
         self.width = width
@@ -14,14 +14,14 @@ class Reactangle:
         return self.__width
 
     @width.setter
-    def width(self, width):
+    def width(self, value):
         """setter of width attribute"""
-        if type(width) != int:
+        if type(value) != int:
             raise TypeError('width must be an integer')
-        elif width <= 0:
+        elif value <= 0:
             raise ValueError('width must be >= 0')
         else:
-            self.__width = width
+            self.__width = value
 
     @property
     def height(self):
@@ -29,11 +29,11 @@ class Reactangle:
         return self.__height
 
     @height.setter
-    def height(self, height):
+    def height(self, value):
         """setter of height attribute"""
-        if type(height) != int:
+        if type(value) != int:
             raise TypeError('height must be an integer')
-        elif height <= 0:
+        elif value <= 0:
             raise ValueError('height must be >= 0')
         else:
-            self.__height = height
+            self.__height = value
