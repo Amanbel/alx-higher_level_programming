@@ -10,14 +10,17 @@ class Reactangle:
 
     @property
     def width(self):
+        """getter of width attribute"""
         return self.__width
 
     @property
     def height(self):
+        """getter of height attribute"""
         return self.__height
 
     @width.setter
     def width(self, width):
+        """setter of width attribute"""
         if type(width) != int:
             raise TypeError('width must be an integer')
         elif width <= 0:
@@ -27,6 +30,7 @@ class Reactangle:
 
     @height.setter
     def height(self, height):
+        """setter of height attribute"""
         if type(height) != int:
             raise TypeError('height must be an integer')
         elif height <= 0:
