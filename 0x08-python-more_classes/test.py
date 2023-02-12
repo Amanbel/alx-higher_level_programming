@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-def display(n, m):
-    for i in range(n):
-        for j in range(m):
-            print('#', end="")
-        print()
+Rectangle = __import__('5-rectangle').Rectangle
 
-def ret():
-    return display(4, 5)
+my_rectangle = Rectangle(2, 4)
+print("Area: {} - Perimeter: {}".format(my_rectangle.area(), my_rectangle.perimeter()))
 
-ret()
+del my_rectangle
+
+try:
+        print(my_rectangle)
+except Exception as e:
+        print("[{}] {}".format(e.__class__.__name__, e))
