@@ -1,2 +1,1 @@
-0
-because the ascii code of I is 73 and this number is between NSMALLPOSINT so its predefined
+262
