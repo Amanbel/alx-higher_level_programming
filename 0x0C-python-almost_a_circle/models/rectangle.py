@@ -23,7 +23,7 @@ class Rectangle(Base):
     @property
     def width(self):
         return self.__width
-    
+
     @property
     def height(self):
         return self.__height
@@ -72,3 +72,8 @@ class Rectangle(Base):
             for j in range(self.width):
                 print('#', end="")
             print()
+
+    def __str__(self):
+        return "[Rectangle] ({}) {}/{}\
+ -\
+ {}/{}".format(self.id, self.x, self.y, self.width, self.height)
