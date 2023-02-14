@@ -6,11 +6,21 @@ from .rectangle import Rectangle
 class Square(Rectangle):
     """a subclass of rectangle"""
     def __init__(self, size, x=0, y=0, id=None):
+        self.size = size
         super().__init__(size, size, x, y, id)
 
     def area(self):
         """calculates area of square"""
         return self.width * self.height
+
+    @property
+    def size(self):
+        return  super().height
+
+    @size.setter
+    def size(self, size):
+        super().width = size
+        super().height = size
 
     def display(self):
         """function to display the square with # character"""
