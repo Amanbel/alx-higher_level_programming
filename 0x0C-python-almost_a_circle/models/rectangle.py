@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """module of a class"""
+import json
 from .base import Base
 
 
@@ -125,4 +126,5 @@ class Rectangle(Base):
     def to_dictionary(self):
         """returns the dictionary representation of the instance
         of Rectangle class"""
-        return Rectangle.__dict__
+        dicts = json.dumps(self)
+        return dicts
