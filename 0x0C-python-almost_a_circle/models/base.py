@@ -31,3 +31,7 @@ class Base:
             else:
                 dict_list = [objs.to_dictionary() for objs in list_objs]
                 f.write(Base.to_json_string(dict_list))
+
+    @staticmethod
+    def from_json_string(json_string):
+        return json.loads(json_string)
