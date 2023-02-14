@@ -31,6 +31,6 @@ class Base:
             dict_list.append(d)
         with open(filename, 'w') as f:
             if list_objs is None:
-                f.write([])
+                f.write("[]")
             else:
                 f.write(Base.to_json_string(dict_list))
