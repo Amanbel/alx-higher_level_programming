@@ -22,7 +22,7 @@ class Square(Rectangle):
             [print(" ", end="") for x in range(self.x)]
             [print('#', end="") for w in range(self.width)]
             print("")
-    
+
     def __str__(self):
         return '[Square] ({}) {}/{}\
  - {}'.format(self.id, self.x, self.y, self.width)
