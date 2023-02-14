@@ -15,12 +15,13 @@ class Square(Rectangle):
 
     @property
     def size(self):
-        return  Rectangle.width
+        return  super().width
 
     @size.setter
     def size(self, size):
-        Rectangle.width = size
-        Rectangle.height = size
+        _size = size
+        super(Square, type(self)).width.fset(self, _size)
+        super(Square, type(self)).height.fset(self, _size)
 
     def display(self):
         """function to display the square with # character"""
@@ -35,4 +36,4 @@ class Square(Rectangle):
 
     def __str__(self):
         return '[Square] ({}) {}/{}\
- - {}'.format(self.id, self.x, self.y, super().width)
+ - {}'.format(self.id, self.x, self.y, self.width)
