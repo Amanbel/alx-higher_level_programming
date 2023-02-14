@@ -125,4 +125,4 @@ class Rectangle(Base):
     def to_dictionary(self):
         """returns the dictionary representation of the instance
         of Rectangle class"""
-        return self.__dict__
+        return Rectangle.__dict__
