@@ -29,5 +29,5 @@ class Base:
         for objs in list_objs:
             d = objs.to_dictionary()
             dict_list.append(d)
-        with open(filename, 'w', encoding="utf-8") as f:
-            json.dump(str(dict_list), f)
+        with open(filename, 'w') as f:
+            f.write(Base.to_json_string(dict_list))
