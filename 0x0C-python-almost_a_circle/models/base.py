@@ -30,4 +30,7 @@ class Base:
             d = objs.to_dictionary()
             dict_list.append(d)
         with open(filename, 'w') as f:
-            f.write(Base.to_json_string(dict_list))
+            if list_objs is None:
+                f.write([])
+            else:
+                f.write(Base.to_json_string(dict_list))
