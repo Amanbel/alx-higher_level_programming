@@ -22,7 +22,7 @@ class Base:
             return "[]"
         for dicts in list_dictionaries:
             dict_lst.append(json.dumps(dicts))
-        return dict_lst
+        return str(dict_lst)
 
     @classmethod
     def save_to_file(cls, list_objs):
