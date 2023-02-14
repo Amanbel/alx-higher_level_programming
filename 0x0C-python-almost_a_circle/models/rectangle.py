@@ -95,6 +95,17 @@ class Rectangle(Base):
 
     def update(self, *args):
         """updates class attributes"""
-        varlist = [super().__init__, self.width, self.height, self.x, self.y]
-        for i in range(len(args)):
-            varlist[i] = args[i]
+        if args and len(args) != 0:
+            a = 0
+            for arg in args:
+                if a == 0:
+                    super().__init__(arg)
+                elif a == 1:
+                    self.width = arg
+                elif a == 2:
+                    self.height = arg
+                elif a == 3:
+                    self.x = arg
+                elif a == 4:
+                    self.y = arg
+                a += 1
