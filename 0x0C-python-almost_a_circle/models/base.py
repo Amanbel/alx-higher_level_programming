@@ -48,3 +48,13 @@ class Base:
                 dummy = cls(12)
             dummy.update(**dictionary)
             return dummy
+
+    @classmethod
+    def load_from_file(cls):
+        filename = "{}.json".format(cls.__name__)
+        try:
+            f = open(filename, 'r')
+        except Exception as e:
+            if e == FileNotFoundError:
+                return []
+        return json.load(f)
