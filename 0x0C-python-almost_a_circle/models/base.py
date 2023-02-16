@@ -53,5 +53,9 @@ class Base:
     def load_from_file(cls):
         """loads serialized file"""
         filename = "{}.json".format(cls.__name__)
-        with open(filename) as f:
-            return json.load(f)
+        try:
+            with open(filename) as f:
+                lst_dicts = Base.from_json_string(f.read())
+                return [cls.create(**d) for d in lst_dicts]
+        except IOError:
+            return []
