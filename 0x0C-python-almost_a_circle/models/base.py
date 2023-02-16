@@ -53,9 +53,5 @@ class Base:
     def load_from_file(cls):
         """loads serialized file"""
         filename = "{}.json".format(cls.__name__)
-        try:
-            f = open(filename, 'r')
-        except Exception as e:
-            if e == FileNotFoundError:
-                return []
-        return json.load(f)
+        with open(filename) as f:
+            return json.load(f)
