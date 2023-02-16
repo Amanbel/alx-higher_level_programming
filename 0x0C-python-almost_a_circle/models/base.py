@@ -51,6 +51,7 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
+        """loads serialized file"""
         filename = "{}.json".format(cls.__name__)
         try:
             f = open(filename, 'r')
