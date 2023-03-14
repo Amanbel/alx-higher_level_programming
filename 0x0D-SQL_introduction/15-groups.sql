@@ -1,0 +1,2 @@
+-- sql query to display count of score and score
+SELECT score, COUNT(score) AS "number" FROM second_table;
