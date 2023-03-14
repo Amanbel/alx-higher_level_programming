@@ -1,3 +1,3 @@
-#sql query that lists all the databases
-show databases
+-- sql query that lists all the databases
+SHOW DATABASES
 
