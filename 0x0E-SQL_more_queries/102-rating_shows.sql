@@ -1,5 +1,5 @@
 -- sql query that list all shows with their rating
-SELECT tv_shows.title, tv_show_ratings.rate AS rating
+SELECT tv_shows.title, COUNT(tv_show_ratings.rate) AS rating
 FROM tv_shows
 JOIN tv_show_ratings ON tv_shows.id=tv_show_ratings.show_id
-ORDER BY tv_show_ratings.rate DESC;
+ORDER BY COUNT(tv_show_ratings.rate) DESC;
