@@ -1,3 +1,4 @@
+-- sql query to show name of genres of tv shows not including Dexter
 SELECT tv_genres.name
 FROM tv_genres
 WHERE tv_genres.id NOT IN (
