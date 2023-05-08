@@ -4,7 +4,7 @@ if (process.argv.length == 2) {
 	out = "No argument";
 } else if (process.argv.length == 3) {
 	out = "Argument found";
-} else if (process.argv.length > 3) {
+} else {
 	out = "Arguments found";
 }
 console.log(out);
