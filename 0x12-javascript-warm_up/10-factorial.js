@@ -8,4 +8,6 @@ function factorial (num) {
 }
 if (process.argv.length > 2) {
   console.log(factorial(process.argv[2]));
+} else {
+  console.log(1);
 }
