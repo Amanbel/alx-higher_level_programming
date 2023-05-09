@@ -1,10 +1,10 @@
 #!/usr/bin/node
 
 if (process.argv.length > 3) {
-  let max = process.argv[2];
+  let max = Number(process.argv[2]);
   for (let i = 0; i < process.argv.length; i++) {
-    if (process.argv[i] > max) {
-      max = process.argv[i];
+    if (Number(process.argv[i]) > max) {
+      max = Number(process.argv[i]);
     }
   }
   const ord = process.argv.slice(2);
