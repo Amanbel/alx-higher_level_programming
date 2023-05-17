@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const SquareOg = require('5-square.js');
+const SquareOg = require('./5-square');
 class Square extends SquareOg {
   charPrint (c) {
     if (c) {
