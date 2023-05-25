@@ -8,4 +8,4 @@ fileStream.writeFile(file, content, (error) => {
   if (error) {
     console.log(error);
   }
-})
+});
