@@ -1,0 +1,251 @@
+{
+  count: 7,
+  next: null,
+  previous: null,
+  results: [
+    {
+      title: 'A New Hope',
+      episode_id: 4,
+      opening_crawl: 'It is a period of civil war.\r\n' +
+        'Rebel spaceships, striking\r\n' +
+        'from a hidden base, have won\r\n' +
+        'their first victory against\r\n' +
+        'the evil Galactic Empire.\r\n' +
+        '\r\n' +
+        'During the battle, Rebel\r\n' +
+        'spies managed to steal secret\r\n' +
+        "plans to the Empire's\r\n" +
+        'ultimate weapon, the DEATH\r\n' +
+        'STAR, an armored space\r\n' +
+        'station with enough power\r\n' +
+        'to destroy an entire planet.\r\n' +
+        '\r\n' +
+        "Pursued by the Empire's\r\n" +
+        'sinister agents, Princess\r\n' +
+        'Leia races home aboard her\r\n' +
+        'starship, custodian of the\r\n' +
+        'stolen plans that can save her\r\n' +
+        'people and restore\r\n' +
+        'freedom to the galaxy....',
+      director: 'George Lucas',
+      producer: 'Gary Kurtz, Rick McCallum',
+      release_date: '1977-05-25',
+      characters: [Array],
+      planets: [Array],
+      starships: [Array],
+      vehicles: [Array],
+      species: [Array],
+      created: '2014-12-10T14:23:31.880000Z',
+      edited: '2014-12-20T19:49:45.256000Z',
+      url: 'https://swapi-api.alx-tools.com/api/films/1/'
+    },
+    {
+      title: 'The Empire Strikes Back',
+      episode_id: 5,
+      opening_crawl: 'It is a dark time for the\r\n' +
+        'Rebellion. Although the Death\r\n' +
+        'Star has been destroyed,\r\n' +
+        'Imperial troops have driven the\r\n' +
+        'Rebel forces from their hidden\r\n' +
+        'base and pursued them across\r\n' +
+        'the galaxy.\r\n' +
+        '\r\n' +
+        'Evading the dreaded Imperial\r\n' +
+        'Starfleet, a group of freedom\r\n' +
+        'fighters led by Luke Skywalker\r\n' +
+        'has established a new secret\r\n' +
+        'base on the remote ice world\r\n' +
+        'of Hoth.\r\n' +
+        '\r\n' +
+        'The evil lord Darth Vader,\r\n' +
+        'obsessed with finding young\r\n' +
+        'Skywalker, has dispatched\r\n' +
+        'thousands of remote probes into\r\n' +
+        'the far reaches of space....',
+      director: 'Irvin Kershner',
+      producer: 'Gary Kurtz, Rick McCallum',
+      release_date: '1980-05-17',
+      characters: [Array],
+      planets: [Array],
+      starships: [Array],
+      vehicles: [Array],
+      species: [Array],
+      created: '2014-12-12T11:26:24.656000Z',
+      edited: '2014-12-15T13:07:53.386000Z',
+      url: 'https://swapi-api.alx-tools.com/api/films/2/'
+    },
+    {
+      title: 'Return of the Jedi',
+      episode_id: 6,
+      opening_crawl: 'Luke Skywalker has returned to\r\n' +
+        'his home planet of Tatooine in\r\n' +
+        'an attempt to rescue his\r\n' +
+        'friend Han Solo from the\r\n' +
+        'clutches of the vile gangster\r\n' +
+        'Jabba the Hutt.\r\n' +
+        '\r\n' +
+        'Little does Luke know that the\r\n' +
+        'GALACTIC EMPIRE has secretly\r\n' +
+        'begun construction on a new\r\n' +
+        'armored space station even\r\n' +
+        'more powerful than the first\r\n' +
+        'dreaded Death Star.\r\n' +
+        '\r\n' +
+        'When completed, this ultimate\r\n' +
+        'weapon will spell certain doom\r\n' +
+        'for the small band of rebels\r\n' +
+        'struggling to restore freedom\r\n' +
+        'to the galaxy...',
+      director: 'Richard Marquand',
+      producer: 'Howard G. Kazanjian, George Lucas, Rick McCallum',
+      release_date: '1983-05-25',
+      characters: [Array],
+      planets: [Array],
+      starships: [Array],
+      vehicles: [Array],
+      species: [Array],
+      created: '2014-12-18T10:39:33.255000Z',
+      edited: '2014-12-20T09:48:37.462000Z',
+      url: 'https://swapi-api.alx-tools.com/api/films/3/'
+    },
+    {
+      title: 'The Phantom Menace',
+      episode_id: 1,
+      opening_crawl: 'Turmoil has engulfed the\r\n' +
+        'Galactic Republic. The taxation\r\n' +
+        'of trade routes to outlying star\r\n' +
+        'systems is in dispute.\r\n' +
+        '\r\n' +
+        'Hoping to resolve the matter\r\n' +
+        'with a blockade of deadly\r\n' +
+        'battleships, the greedy Trade\r\n' +
+        'Federation has stopped all\r\n' +
+        'shipping to the small planet\r\n' +
+        'of Naboo.\r\n' +
+        '\r\n' +
+        'While the Congress of the\r\n' +
+        'Republic endlessly debates\r\n' +
+        'this alarming chain of events,\r\n' +
+        'the Supreme Chancellor has\r\n' +
+        'secretly dispatched two Jedi\r\n' +
+        'Knights, the guardians of\r\n' +
+        'peace and justice in the\r\n' +
+        'galaxy, to settle the conflict....',
+      director: 'George Lucas',
+      producer: 'Rick McCallum',
+      release_date: '1999-05-19',
+      characters: [Array],
+      planets: [Array],
+      starships: [Array],
+      vehicles: [Array],
+      species: [Array],
+      created: '2014-12-19T16:52:55.740000Z',
+      edited: '2014-12-20T10:54:07.216000Z',
+      url: 'https://swapi-api.alx-tools.com/api/films/4/'
+    },
+    {
+      title: 'Attack of the Clones',
+      episode_id: 2,
+      opening_crawl: 'There is unrest in the Galactic\r\n' +
+        'Senate. Several thousand solar\r\n' +
+        'systems have declared their\r\n' +
+        'intentions to leave the Republic.\r\n' +
+        '\r\n' +
+        'This separatist movement,\r\n' +
+        'under the leadership of the\r\n' +
+        'mysterious Count Dooku, has\r\n' +
+        'made it difficult for the limited\r\n' +
+        'number of Jedi Knights to maintain \r\n' +
+        'peace and order in the galaxy.\r\n' +
+        '\r\n' +
+        'Senator Amidala, the former\r\n' +
+        'Queen of Naboo, is returning\r\n' +
+        'to the Galactic Senate to vote\r\n' +
+        'on the critical issue of creating\r\n' +
+        'an ARMY OF THE REPUBLIC\r\n' +
+        'to assist the overwhelmed\r\n' +
+        'Jedi....',
+      director: 'George Lucas',
+      producer: 'Rick McCallum',
+      release_date: '2002-05-16',
+      characters: [Array],
+      planets: [Array],
+      starships: [Array],
+      vehicles: [Array],
+      species: [Array],
+      created: '2014-12-20T10:57:57.886000Z',
+      edited: '2014-12-20T20:18:48.516000Z',
+      url: 'https://swapi-api.alx-tools.com/api/films/5/'
+    },
+    {
+      title: 'Revenge of the Sith',
+      episode_id: 3,
+      opening_crawl: 'War! The Republic is crumbling\r\n' +
+        'under attacks by the ruthless\r\n' +
+        'Sith Lord, Count Dooku.\r\n' +
+        'There are heroes on both sides.\r\n' +
+        'Evil is everywhere.\r\n' +
+        '\r\n' +
+        'In a stunning move, the\r\n' +
+        'fiendish droid leader, General\r\n' +
+        'Grievous, has swept into the\r\n' +
+        'Republic capital and kidnapped\r\n' +
+        'Chancellor Palpatine, leader of\r\n' +
+        'the Galactic Senate.\r\n' +
+        '\r\n' +
+        'As the Separatist Droid Army\r\n' +
+        'attempts to flee the besieged\r\n' +
+        'capital with their valuable\r\n' +
+        'hostage, two Jedi Knights lead a\r\n' +
+        'desperate mission to rescue the\r\n' +
+        'captive Chancellor....',
+      director: 'George Lucas',
+      producer: 'Rick McCallum',
+      release_date: '2005-05-19',
+      characters: [Array],
+      planets: [Array],
+      starships: [Array],
+      vehicles: [Array],
+      species: [Array],
+      created: '2014-12-20T18:49:38.403000Z',
+      edited: '2014-12-20T20:47:52.073000Z',
+      url: 'https://swapi-api.alx-tools.com/api/films/6/'
+    },
+    {
+      title: 'The Force Awakens',
+      episode_id: 7,
+      opening_crawl: 'Luke Skywalker has vanished.\r\n' +
+        'In his absence, the sinister\r\n' +
+        'FIRST ORDER has risen from\r\n' +
+        'the ashes of the Empire\r\n' +
+        'and will not rest until\r\n' +
+        'Skywalker, the last Jedi,\r\n' +
+        'has been destroyed.\r\n' +
+        ' \r\n' +
+        'With the support of the\r\n' +
+        'REPUBLIC, General Leia Organa\r\n' +
+        'leads a brave RESISTANCE.\r\n' +
+        'She is desperate to find her\r\n' +
+        'brother Luke and gain his\r\n' +
+        'help in restoring peace and\r\n' +
+        'justice to the galaxy.\r\n' +
+        ' \r\n' +
+        'Leia has sent her most daring\r\n' +
+        'pilot on a secret mission\r\n' +
+        'to Jakku, where an old ally\r\n' +
+        'has discovered a clue to\r\n' +
+        "Luke's whereabouts....",
+      director: 'J. J. Abrams',
+      producer: 'Kathleen Kennedy, J. J. Abrams, Bryan Burk',
+      release_date: '2015-12-11',
+      characters: [Array],
+      planets: [Array],
+      starships: [Array],
+      vehicles: [],
+      species: [Array],
+      created: '2015-04-17T06:51:30.504780Z',
+      edited: '2015-12-17T14:31:47.617768Z',
+      url: 'https://swapi-api.alx-tools.com/api/films/7/'
+    }
+  ]
+}
