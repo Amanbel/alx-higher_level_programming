@@ -3,7 +3,8 @@
 const request = require('request');
 const url = process.argv[2];
 const obj = {};
-let j = 1;
+let n = 1;
+let k = 0;
 
 request(url, (error, response, body) => {
   if (error) {
@@ -11,9 +12,17 @@ request(url, (error, response, body) => {
   } else {
     const arr = JSON.parse(body);
     for (let i = 0; i < arr.length; i++) {
-      if (arr[i].completed === true) {
-        obj[j] = arr[i].id;
-        j++;
+      for (let j = 0; j < arr.length; j++) {
+        if (arr[j].userId === n) {
+	  if (arr[j].completed === true) {
+            k++;
+	  }
+	}
+      }
+      if (n <= 10) {
+        obj[n] = k;
+        k = 0;
+        n++;
       }
     }
     console.log(obj);
