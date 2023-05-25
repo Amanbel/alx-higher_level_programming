@@ -14,10 +14,10 @@ request(url, (error, response, body) => {
     for (let i = 0; i < arr.length; i++) {
       for (let j = 0; j < arr.length; j++) {
         if (arr[j].userId === n) {
-	  if (arr[j].completed === true) {
+          if (arr[j].completed === true) {
             k++;
-	  }
-	}
+          }
+        }
       }
       if (n <= 10) {
         obj[n] = k;
