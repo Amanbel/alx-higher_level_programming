@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+"""Lists states from user input
+that is provided as an argument"""
+
 import MySQLdb
 from sys import argv
 
