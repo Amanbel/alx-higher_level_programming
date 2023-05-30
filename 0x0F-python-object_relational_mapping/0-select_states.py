@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-import sys
 
-if __name__ == "__main__" && len(sys.argv) == 4:
+if __name__ == "__main__":
     import MySQLdb
+    import sys
 
     db = MySQLdb.connect(host="localhost", user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3], port=3306)
     cur = db.cursor()
@@ -11,3 +11,5 @@ if __name__ == "__main__" && len(sys.argv) == 4:
     res = cur.fetchall()
     for row in res:
         print (row)
+    cur.close()
+    db.close()
