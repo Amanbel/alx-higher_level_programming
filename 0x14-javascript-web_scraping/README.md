@@ -1,2 +1,3 @@
 # project about javascript web scraping
 ## stay tuned...
+use full for getting data from the web trough the json format
