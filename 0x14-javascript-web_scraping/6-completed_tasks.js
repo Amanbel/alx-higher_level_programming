@@ -23,7 +23,7 @@ request(url, (error, response, body) => {
         obj[n] = k;
         k = 0;
         n++;
-      } else {
+      }else {
           break;
       }
     }
