@@ -1,5 +1,9 @@
 #!/usr/bin/node
 
+if (process.argv.length < 3) {
+  return;
+}
+
 const request = require('request');
 const url = process.argv[2];
 let j = 0;
